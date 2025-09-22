@@ -1,12 +1,12 @@
 package commerce;
 
-public class Product {
+public class CommerceSystem {
     private String name;
     private String price;
     private String exp;
     private int stock;
 
-    Product(String name, String price, String exp, int stock) {
+    CommerceSystem(String name, String price, String exp, int stock) {
         this.name = name;
         this.price = price;
         this.exp = exp;
@@ -17,3 +17,4 @@ public class Product {
         return name + " | " + price + " | " + exp + " | " + stock;
     }
 }
+
